@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;500;700&display=swap');
+
+html{font-size: 10px;}
+
+body{margin: 0px; font: ''; }
+
+header{ height: 2700px;}
+
+header div{height: 100%;}
+header p{padding-top: 30px;}
+
+.bg-img1{background-image: url(img/1x/bground.png); background-attachment: flex; }
+
+.bg-img2{background-image: url(img/1x/bground2.png); background-attachment: flex; }
+
+.sizeVw
+{width: 20vw;
+display: flex;
+margin: 0vw;
+padding: 0vw 0vw;
+align-items: center;
+justify-content: center;
+}
+
+#menu{ height: 46px; width: 100%; position: fixed; top:0px;}
+#menu ul{display: flex; justify-content: space-evenly; align-items: center; padding: 0px;}
+#menu ul li {list-style: none; padding: 13px 30px; user-select: none; border-radius: 20px;}
+#menu ul li:hover{color:rgb(255, 255, 255); background-color: rgb(0, 103, 143);}
+
+#menu2 div:hover {color:rgb(255, 255, 255); background-color: rgb(6, 43, 14);}
+
+.row
+{
+    width: 1420px;
+    display: flex;
+    margin: 0 auto;
+    padding: 0px 5px;
+    margin-bottom: 5.3rem;
+}
+
+.row1
+{
+    width: 1420px;
+    display: flex;
+    margin: 0 auto;
+    padding: 0px 5px;
+    margin-bottom: 0px;
+    justify-content: center;
+    align-items: bottom;
+}
+
+.row2
+{
+    width: 1420px;
+    display: flex;
+    margin: auto;
+    padding: 0px 0px;
+    margin-bottom:0px;
+}
+
+.row2-1
+{
+    width: 1420px;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    padding: 0px 0px;
+    margin-bottom:0px;
+}
+
+.row3
+{
+    width: 1420px;
+    display: flex;
+    margin: auto;
+    padding: 0px 0px;
+    margin-bottom:300px;
+}
+
+.row3-1
+{
+    width: 1420px;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    padding: 0px 0px;
+    margin-bottom:150px;
+}
+
+.row3-2
+{
+    width: 1420px;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    padding: 0px 0px;
+    margin-bottom:100px;
+}
+
+
+
+.row4
+{
+    width: 1420px;
+    display: flex;
+    margin: auto;
+    padding: 0px 0px;
+    margin-bottom:50px;
+}
+
+.col-1{width: 8.33%; padding: 0px 5px;}
+.col-2{width: 16.66%; padding: 0px 5px;}
+.col-3{width: 25%; padding: 0px 5px;}
+.col-4{width: 33.33%; padding: 0px 5px;}
+.col-5{width: 41.66%; padding: 0px 5px;}
+.col-6{width: 50%; padding: 0px 5px;}
+.col-7{width: 58.33%; padding: 0px 5px;}
+.col-8{width: 66.66%; padding: 0px 5px;}
+.col-9{width: 75%; padding: 0px 5px;}
+.col-10{width: 83.33%; padding: 0px 5px;}
+.col-11{width: 91.66%; padding: 0px 5px;}
+.col-12{width: 100%; padding: 0px 5px;}
+
+.h-200{height: 200px;}
+.h-300{height: 300px;}
+.h-400{height: 400px;}
+.h-500{height: 500px;}
+
+.bg-white{background-color: rgb(255, 255, 255);}
+.bg-gray{background-color: #999;}
+.bg-blue{background-color:rgb(0, 0, 0);}
+.bg-green{background-color: rgb(0, 102, 14);}
+.bg-green{background-color: rgb(0, 205, 48);}
+.bg-none{background-color:rgba(255, 255, 255, 0);}
+.bg-black{background-color:rgb(0, 0, 0);}
+.bg-sky{background-color:rgba(0, 136, 199, 0.634);}
+.bg-by{background-color:rgb(0, 208, 255);}
+
+.text-white{color: white;}
+.text-gray{color: #4b4b4b;}
+.text-green{color: #bcffb6;}
+
+.text-center{text-align: center;}
+.text-left{text-align: left;}
+.text-right{text-align: right;}
+
+.text-main-title{font-weight: 700; font-size: 20rem; margin: 0px;}
+.text-main2-title{font-weight: 700; font-size: 15rem; margin: 0px;}
+.text-under-title{font-weight: 400; font-size: 7rem; margin: 0px;}
+.text-under-title1{font-weight: 400; font-size: 7rem; margin: 0px;}
+.text-sub-title{font-weight: 500; font-size: 2rem; margin: 0px;}
+.text-normal{font-weight: 300; font-size: 1.58rem;}
+.text-footer{font-weight: 500; font-size: 1.2rem;}
+.text-menu{font-weight: 500; font-size: 1.4rem; color: aliceblue;}
+.text-menu2{font-weight: 500; font-size: 1.6rem; color: aliceblue; margin-top:25px;}
+
+.img-fit{width: 100%;}
+.img-border{border:1px solid #333; box-sizing: border-box;}
+
+.paragraph{column-count: 3; column-gap: 20px; column-rule: 4px double steelblue; word-break: keep-all;}
+.paragraph-span{column-span: all;}
+
+footer p{padding: 30px 5px;}
+#footer{margin-bottom: 0px; width: 100%;}
+
+#menuBox{ width: 150px; height: 70px; background-color: rgb(0, 129, 54); justify-content: center; border-radius: 20px;}
+
+.rD{border-radius: 20px;}
+
+.mT{margin-top: 50px;}
+
+.mD{justify-content: center;}
